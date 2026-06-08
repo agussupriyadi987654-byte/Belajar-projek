@@ -14,11 +14,11 @@ SELAMAT DATANG
 _____________
 Ini multibaris
 ");
-    let var1 = "Halo"; //mirip const di js
+    let var1 = "Halo"; //mirip const di js ngga bisa diubah
     let mut var2 = "Hai"; // mirip let di js
     println!("{} {}",var2, var1);// pake placeholder
     var2 = "Woy"; //diganti
-    //var1 = "Woy" // ini akan error
+    //var1 = "Woy" // ini akan error tapi kalau var2 = var2++
     println!("{} {}", var2, var1);
     let var3:i8 = 27; //akan membuat slot bilangan
                      //rentang -2⁷ sampai 2⁷
