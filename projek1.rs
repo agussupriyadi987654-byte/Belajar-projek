@@ -18,7 +18,7 @@ Ini multibaris
     let mut var2 = "Hai"; // mirip let di js
     println!("{} {}",var2, var1);// pake placeholder
     var2 = "Woy"; //diganti
-    //var1 = "Woy" // ini akan error tapi kalau var2 = var2+1
+    //var1 = "Woy" // ini akan error tapi bisa var1=var1+1
     println!("{} {}", var2, var1);
     let var3:i8 = 27; //akan membuat slot bilangan
                      //rentang -2⁷ sampai 2⁷
