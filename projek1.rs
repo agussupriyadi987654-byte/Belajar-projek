@@ -27,8 +27,10 @@ Ini multibaris
     print!("Masukan nama :"); //tanpa enter
     io::stdout().flush().unwrap();
     //input tidak keluar dulu
-    let mut nama = String::new(); //input
-    io::stdin().read_line(&mut nama).expect("gagal");
-
+    let mut nama = String::new(); //bikin wadah variabel
+    io::stdin().read_line(&mut nama).unwrap();
+    /* outputnya ada dua kemungkinan, isi dan error
+    .unwrap() buat ambil isi nya aja.
+    */
     println!("Halo {}", nama);
 }
