@@ -29,6 +29,8 @@ Ini multibaris
     //input tidak keluar dulu
     let mut nama = String::new(); //bikin wadah variabel
     io::stdin().read_line(&mut nama).unwrap();
+    /*kalau langsung nama, kepemilikan berpindah,
+    agar cuma pinjam pake &, biat bisa diubah pake mut*/
     /* outputnya ada dua kemungkinan, isi dan error
     .unwrap() buat ambil isi nya aja.
     */
