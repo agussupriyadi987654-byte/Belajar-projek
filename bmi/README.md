@@ -1,3 +1,4 @@
+# bmi
 Membuat projek BMI sederhana
 lebih berfokus pada angka
 menggunakan operasi matematika
