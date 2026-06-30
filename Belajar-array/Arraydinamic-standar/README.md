@@ -7,6 +7,6 @@
 4. .NET (C# dan VB) menggunakan List
 
 Interpreter:  
-5. Python menggunakan list
-6. JS menggunakan array
-7. lua menggunakan table
+5. Python menggunakan list  
+6. JS menggunakan array  
+7. lua menggunakan table  
